@@ -1,34 +1,48 @@
 # importing packages
 from pytube import YouTube,Playlist
+import os
 
 data = []
-
-print("<== Welcome To YouTube Video Downlaoder ==>")
 
 def AllPlaylistLinks(url):
   links = Playlist(url)
   return links
-  
+
 # download single music
-def downloadMusic(url, SAVE_PATH):
-  yt = YouTube(url) 
+def downloadMusic(url, savePath):
+  # url input from user
+  yt = YouTube(str(url))
+
+  # extract only audio
+  video = yt.streams.filter(only_audio=True).first()
+
+  # check for destination to save file
+  destination = savePath
+
   try:
-    yt.streams.filter(progressive = True, 
-  file_extension = "mp4").first().download(output_path = SAVE_PATH,filename = f"{yt.title}.mp4")
+    # download the file
+    out_file = video.download(output_path=destination)
+  
+    # save the file
+    base, ext = os.path.splitext(str(out_file))
+    new_file = str(base)+'.mp3'
+  
+    os.rename(out_file, str(new_file))
+  
+    # result of success
     print(yt.title + " has been successfully downloaded.")
-  
+    if(yt):
+      return 0
+
   except :
-    print("Sorry: Falid To Downaload Video")
-  
+    print("Falid To Downaload file")
+
 # downlaod more then one music
 def DownlaodAll(data):
   try:
       for index, i in enumerate(data):
-        print("    ----    ")
-        print(str(len(data))+" Out Of "+ str(index+1))
-        downloadMusic(i, "Videos")
-        print("    ----    ")
-      print("Your Video Downlaod in Videos Folder")
+        print(len(data), index)
+        downloadMusic(i, "Music")
   except:
       print("Sorry! Somting Woring In code")
 

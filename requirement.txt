@@ -24,6 +24,8 @@ itsdangerous @ https://files.pythonhosted.org/packages/68/5f/447e04e828f47465eea
 jedi @ https://files.pythonhosted.org/packages/b3/0e/836f12ec50075161e365131f13f5758451645af75c2becf61c6351ecec39/jedi-0.18.1-py2.py3-none-any.whl#sha256=637c9635fcf47945ceb91cd7f320234a7be540ded6f3e99a50cb6febdfd1ba8d
 jeepney==0.8.0
 Jinja2 @ https://files.pythonhosted.org/packages/bc/c3/f068337a370801f372f2f8f6bad74a5c140f6fda3d9de154052708dd3c65/Jinja2-3.1.2-py3-none-any.whl#sha256=6088930bfe239f0e6710546ab9c19c9ef35e29792895fed6e6e31a023a182a61
+jsonlib-python3==1.6.1
+jsons==1.6.3
 keyring==21.8.0
 lockfile==0.12.2
 MarkupSafe @ https://files.pythonhosted.org/packages/fd/f4/524d2e8f5a3727cf309c2b7df7c732038375322df1376c9e9ef3aa92fcaf/MarkupSafe-2.1.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl#sha256=4b9fe39a2ccc108a4accc2676e77da025ce383c108593d65cc909add5c3bd601
@@ -46,7 +48,7 @@ pylev==1.4.0
 pyparsing==3.0.9
 python-lsp-jsonrpc @ https://files.pythonhosted.org/packages/06/ee/754bfd5f6bfe7162c10d3ecb0aeef6f882f91d3231596c83f761a75efd0b/python_lsp_jsonrpc-1.0.0-py3-none-any.whl#sha256=079b143be64b0a378bdb21dff5e28a8c1393fe7e8a654ef068322d754e545fc7
 pytoolconfig @ https://files.pythonhosted.org/packages/26/15/e21a7c063c29c0b782be090df589b25fdc62ea3b5e5687a94a217851944e/pytoolconfig-1.2.2-py3-none-any.whl#sha256=825d97b052e58b609c2684b04efeb543075588d33a4916a6dc2ae39676458c7d
-pytube @ https://files.pythonhosted.org/packages/fb/61/d53566d4634f3f27b60867f054330b3ec1d22d399e20a9708a1a00471987/pytube-12.1.2-py3-none-any.whl#sha256=a844800002744f33107f4440543f9a5f1fd9fcd97dad35cf2dd4803212352d9a
+pytube==12.1.2
 replit @ https://files.pythonhosted.org/packages/bc/c7/6937037f3152a26917c80eadd4729a63175afe89241e43451d8588bdb130/replit-3.2.4-py3-none-any.whl#sha256=4fa5895e1e090ba23c179641bc88ab0486d1bea696515aa3147fce55733e29e1
 replit-python-lsp-server @ https://files.pythonhosted.org/packages/09/42/44ff903505cefa2b2d06fcc164ddff74510eece259e30da6a0c2c68976c8/replit_python_lsp_server-1.15.9-py3-none-any.whl#sha256=205faf150008be7d3da2ac16fc178c833d22835e24841cb82b666443a6b28bef
 requests==2.28.1
@@ -59,6 +61,7 @@ toml @ https://files.pythonhosted.org/packages/44/6f/7120676b6d73228c96e17f1f794
 tomli @ https://files.pythonhosted.org/packages/97/75/10a9ebee3fd790d20926a90a2547f0bf78f371b2f13aa822c759680ca7b9/tomli-2.0.1-py3-none-any.whl#sha256=939de3e7a6161af0c887ef91b7d41a53e7c5a1ca976325f429cb46ea9bc30ecc
 tomlkit==0.11.5
 typing-extensions @ https://files.pythonhosted.org/packages/74/60/18783336cc7fcdd95dae91d73477830aa53f5d3181ae4fe20491d7fc3199/typing_extensions-3.10.0.2-py3-none-any.whl#sha256=f1d25edafde516b146ecd0613dabcc61409817af4766fbbcfb8d1ad4ec441a34
+typish==1.9.3
 ujson @ https://files.pythonhosted.org/packages/0a/ac/db3e3b1938729234d2c02ae0111922e5c79af4ddc41bde39f7b4bd2f8aba/ujson-5.5.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl#sha256=a7d12f2d2df195c8c4e49d2cdbad640353a856c62ca2c624d8b47aa33b65a2a2
 urllib3==1.26.12
 virtualenv==20.16.5
